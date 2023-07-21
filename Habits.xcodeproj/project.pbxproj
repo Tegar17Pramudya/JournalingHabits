@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F1EF1452A64530100E62C69 /* VideoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1EF1442A64530100E62C69 /* VideoManager.swift */; };
+		7F1EF1812A68E67900E62C69 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1EF1802A68E67900E62C69 /* HomeView.swift */; };
+		7F1EF1832A68E68E00E62C69 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1EF1822A68E68E00E62C69 /* JournalView.swift */; };
+		7F1EF1852A68E6AB00E62C69 /* MealTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1EF1842A68E6AB00E62C69 /* MealTimeView.swift */; };
+		7F1EF1872A68E6C000E62C69 /* AddJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1EF1862A68E6C000E62C69 /* AddJournalView.swift */; };
+		7F1EF1892A68E6D100E62C69 /* DailyAffirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1EF1882A68E6D100E62C69 /* DailyAffirmationView.swift */; };
+		7F1EF18C2A68E6F500E62C69 /* RubricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1EF18B2A68E6F500E62C69 /* RubricView.swift */; };
+		7F1EF18E2A68E70700E62C69 /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1EF18D2A68E70700E62C69 /* GreetingView.swift */; };
+		7F1EF1902A68E72000E62C69 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1EF18F2A68E72000E62C69 /* ResultView.swift */; };
+		7F1EF1922A68E74100E62C69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1EF1912A68E74100E62C69 /* ContentView.swift */; };
 		7FC64F7E2A5D633C00988E10 /* HabitsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC64F7D2A5D633C00988E10 /* HabitsApp.swift */; };
-		7FC64F802A5D633C00988E10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC64F7F2A5D633C00988E10 /* ContentView.swift */; };
+		7FC64F802A5D633C00988E10 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC64F7F2A5D633C00988E10 /* CameraView.swift */; };
 		7FC64F822A5D633D00988E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC64F812A5D633D00988E10 /* Assets.xcassets */; };
 		7FC64F852A5D633D00988E10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC64F842A5D633D00988E10 /* Preview Assets.xcassets */; };
 		7FC64F8F2A5D633D00988E10 /* HabitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC64F8E2A5D633D00988E10 /* HabitsTests.swift */; };
@@ -34,9 +44,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F1EF1442A64530100E62C69 /* VideoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoManager.swift; sourceTree = "<group>"; };
+		7F1EF1462A6455D900E62C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7F1EF1802A68E67900E62C69 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7F1EF1822A68E68E00E62C69 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		7F1EF1842A68E6AB00E62C69 /* MealTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTimeView.swift; sourceTree = "<group>"; };
+		7F1EF1862A68E6C000E62C69 /* AddJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJournalView.swift; sourceTree = "<group>"; };
+		7F1EF1882A68E6D100E62C69 /* DailyAffirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyAffirmationView.swift; sourceTree = "<group>"; };
+		7F1EF18B2A68E6F500E62C69 /* RubricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubricView.swift; sourceTree = "<group>"; };
+		7F1EF18D2A68E70700E62C69 /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
+		7F1EF18F2A68E72000E62C69 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		7F1EF1912A68E74100E62C69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7FC64F7A2A5D633C00988E10 /* Habits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC64F7D2A5D633C00988E10 /* HabitsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsApp.swift; sourceTree = "<group>"; };
-		7FC64F7F2A5D633C00988E10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7FC64F7F2A5D633C00988E10 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		7FC64F812A5D633D00988E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FC64F842A5D633D00988E10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7FC64F8A2A5D633D00988E10 /* HabitsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +92,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F1EF17F2A68E65500E62C69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F1EF1802A68E67900E62C69 /* HomeView.swift */,
+				7F1EF1822A68E68E00E62C69 /* JournalView.swift */,
+				7F1EF1842A68E6AB00E62C69 /* MealTimeView.swift */,
+				7F1EF1862A68E6C000E62C69 /* AddJournalView.swift */,
+				7F1EF1882A68E6D100E62C69 /* DailyAffirmationView.swift */,
+				7F1EF18B2A68E6F500E62C69 /* RubricView.swift */,
+				7F1EF18D2A68E70700E62C69 /* GreetingView.swift */,
+				7F1EF18F2A68E72000E62C69 /* ResultView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		7FC64F712A5D633C00988E10 = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +130,13 @@
 		7FC64F7C2A5D633C00988E10 /* Habits */ = {
 			isa = PBXGroup;
 			children = (
+				7F1EF1462A6455D900E62C69 /* Info.plist */,
 				7FC64F7D2A5D633C00988E10 /* HabitsApp.swift */,
-				7FC64F7F2A5D633C00988E10 /* ContentView.swift */,
+				7F1EF1912A68E74100E62C69 /* ContentView.swift */,
+				7FC64F7F2A5D633C00988E10 /* CameraView.swift */,
+				7F1EF1442A64530100E62C69 /* VideoManager.swift */,
 				7FC64F812A5D633D00988E10 /* Assets.xcassets */,
+				7F1EF17F2A68E65500E62C69 /* View */,
 				7FC64F832A5D633D00988E10 /* Preview Content */,
 			);
 			path = Habits;
@@ -257,8 +297,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FC64F802A5D633C00988E10 /* ContentView.swift in Sources */,
+				7FC64F802A5D633C00988E10 /* CameraView.swift in Sources */,
+				7F1EF1832A68E68E00E62C69 /* JournalView.swift in Sources */,
+				7F1EF1922A68E74100E62C69 /* ContentView.swift in Sources */,
+				7F1EF1902A68E72000E62C69 /* ResultView.swift in Sources */,
+				7F1EF1852A68E6AB00E62C69 /* MealTimeView.swift in Sources */,
+				7F1EF18E2A68E70700E62C69 /* GreetingView.swift in Sources */,
+				7F1EF1892A68E6D100E62C69 /* DailyAffirmationView.swift in Sources */,
+				7F1EF1812A68E67900E62C69 /* HomeView.swift in Sources */,
+				7F1EF1452A64530100E62C69 /* VideoManager.swift in Sources */,
 				7FC64F7E2A5D633C00988E10 /* HabitsApp.swift in Sources */,
+				7F1EF1872A68E6C000E62C69 /* AddJournalView.swift in Sources */,
+				7F1EF18C2A68E6F500E62C69 /* RubricView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +470,9 @@
 				DEVELOPMENT_TEAM = ZZ79V9645H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Habits/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Apps ingin menggunakan kamera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Apps ingin menggunakan microphone";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +502,9 @@
 				DEVELOPMENT_TEAM = ZZ79V9645H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Habits/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Apps ingin menggunakan kamera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Apps ingin menggunakan microphone";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
